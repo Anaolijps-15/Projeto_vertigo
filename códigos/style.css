@@ -90,6 +90,12 @@ main {
 
 }
 
+.login button:hover {
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .login input::hover,
 .login input::focus {
     outline: 1px solid var(--purple);
@@ -150,11 +156,23 @@ main {
 
     .conteudo {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .bg-desktop{
         display: block;
         width: 100%;
 
+    }
+
+    .descricao h1 {
+        font-size: 2.25rem;
+
+
+    }
+    .descricao p {
+        font-size: 1rem;
     }
 }
