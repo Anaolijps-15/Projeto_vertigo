@@ -102,6 +102,7 @@ main {
 
 .login button {
     margin-top: 1rem;
+    margin-bottom: 2rem;
     padding-block: 1.6rem;
     width: 100;
     background: var(--purple);
@@ -113,3 +114,27 @@ main {
     color: var(--white);
 
 }
+
+.login >p {
+    font-size: 1rem;
+    color: var(--gray-600);
+
+}
+.login > p a {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+@media(nin-widht:1000px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img{
+        width: 10rem;
+    }
+    main{
+        padding-inline: 7rem;
+    }
